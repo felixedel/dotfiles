@@ -22,15 +22,28 @@ print_help() {
 
     Commands:
 
-        help        This help message
-        macos       Apply macOS system defaults
-        update      Update package and package managers (OS, port, npm)
+        help            This help message
+        macos           Apply macOS system defaults
+        update [--osx]  Update package and package managers (port, npm)
+                        Use the --osx flag to also update macOS.
+
     "
 }
 
 sub_update() {
-    # Update macOS App Store apps
-    softwareupdate -i -a
+    # The macOS update takes very long, even if there is nothing to update.
+    # Thus, we make it optional
+    if [ -n "${1:-}" ]; then
+        read -p "The macOS update could take a while. Continue (y/n)? " yn
+        case "${yn:0:1}" in
+            y|Y)
+                softwareupdate -i -a
+                ;;
+            *)
+                echo "Skipping macOS update"
+                ;;
+        esac
+    fi
 
     # Update MacPorts
     port selfupdate
