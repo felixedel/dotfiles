@@ -4,6 +4,8 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export PATH=/opt/local/bin:~/bin:$PATH
 # Add npm modules to path
 export PATH=~/.npm-packages/bin:${PATH}
+# Add .dotfiles/scripts to path
+export PATH=~/.dotfiles/bin:${PATH}
 
 # Export locale settings
 export LC_ALL=en_GB.utf-8
