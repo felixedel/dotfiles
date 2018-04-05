@@ -1,7 +1,10 @@
+# Define basic path variable
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # Add MacPorts to path
 export PATH=/opt/local/bin:~/bin:$PATH
 # Add npm modules to path
-export PATH=${HOME}/.npm-packages/bin:${PATH}
+export PATH=~/.npm-packages/bin:${PATH}
+
 # Export locale settings
 export LC_ALL=en_GB.utf-8
 export LANG=en_GB.utf-8
