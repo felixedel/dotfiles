@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Create new session 'dev' in detached mode
+tmux new-session -d -t 'dev' -c ~/Workspace/codecraft/cilib
+
+# Create the first 'codecraft' window, add 2 panes and order them in the
+# 'main-vertical' layout
+tmux rename-window -t 1 codecraft
+tmux split-window -v -c "#{pane_current_path}/../zuul-conf-global"
+tmux split-window -v -c "#{pane_current_path}/../zuul-conf-cc-prod"
+# TODO Make the 'main' windows thinner
+tmux select-layout -t codecraft main-vertical
+
+# Create the second 'bci' window, add 1 pane in a vertical split
+tmux new-window -c ~/Workspace/bci/config/ansible
+tmux rename-window -t 2 bci
+# TODO Why is the vertical split not working here?
+tmux split-window -v -c "#{pane_current_path}"
+
+# Create the third 'ssh' window
+tmux new-window
+tmux rename-window -t 3 ssh
+
+# Finally, select the first 'codecraft' window and attach to the created
+# session 'dev'
+tmux select-window -t codecraft
+tmux attach-session -t 'dev'
