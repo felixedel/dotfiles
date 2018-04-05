@@ -1,0 +1,10 @@
+# Add MacPorts to path
+export PATH=/opt/local/bin:~/bin:$PATH
+# Add npm modules to path
+export PATH=${HOME}/.npm-packages/bin:${PATH}
+# Export locale settings
+export LC_ALL=en_GB.utf-8
+export LANG=en_GB.utf-8
+
+# Set editor
+EDITOR=vim
