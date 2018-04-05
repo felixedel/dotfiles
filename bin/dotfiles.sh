@@ -46,8 +46,8 @@ sub_update() {
     fi
 
     # Update MacPorts
-    port selfupdate
-    port upgrade outdated
+    sudo port selfupdate
+    sudo port upgrade outdated
 
     # Update npm
     npm install npm -g
