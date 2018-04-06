@@ -12,8 +12,8 @@ plugins=(
 # Activate oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
-# Source custom .dotfiles
-source ${HOME}/.exports
+# Source custom dotfiles scripts
+source ${HOME}/.dotfiles/zsh/.exports
 # For a full list of active aliases, run `alias`.
-source ${HOME}/.aliases
-source ${HOME}/.functions
+source ${HOME}/.dotfiles/zsh/.aliases
+source ${HOME}/.dotfiles/zsh/.functions
