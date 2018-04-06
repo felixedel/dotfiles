@@ -57,6 +57,7 @@ sub_update() {
 sub_macos() {
     defaults_file="${__dotfiles_dir}/.osxdefaults"
     echo "Applying ${defaults_file}" && source "${defaults_file}"
+    echo "Some of the settings may require a relaunch of the finder application"
 }
 
 case ${arg1} in
