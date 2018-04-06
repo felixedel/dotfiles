@@ -1,0 +1,14 @@
+# Pretty print json from String
+prettyjson_s() {
+    echo "$1" | python -m json.tool
+}
+
+# Pretty print json from file
+prettyjson_f() {
+    python -m json.tool "$1"
+}
+
+# Pretty print json from URL
+prettyjson_w() {
+    curl "$1" | python -m json.tool
+}
