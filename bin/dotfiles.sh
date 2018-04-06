@@ -23,11 +23,17 @@ print_help() {
     Commands:
 
         help            This help message
+        clean           Clean package managers (port)
         macos           Apply macOS system defaults
         update [--osx]  Update package and package managers (port, npm)
                         Use the --osx flag to also update macOS.
 
     "
+}
+
+sub_clean() {
+    sudo port clean --all installed # TODO -f option?
+    sudo port uninstall inactive # TODO -f option?
 }
 
 sub_update() {
