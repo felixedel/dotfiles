@@ -155,7 +155,8 @@ au BufNewFile,BufRead *.wsgi set filetype=python
 
 " CtrlP exclude Python PYC files
 set wildignore+=*.pyc
-"let g:ctrlp_show_hidden = 1
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_custom_ignore = '\.git/'
 
 " Nerdtree
 map <leader>t :NERDTreeToggle<CR>
