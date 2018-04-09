@@ -1,3 +1,9 @@
+# Create a new directory and enter it
+
+mk() {
+  mkdir -p "$@" && cd "$@"
+}
+
 # Pretty print json from String
 prettyjson_s() {
     echo "$1" | python -m json.tool
