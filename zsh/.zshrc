@@ -5,7 +5,6 @@ export ZSH=${HOME}/.oh-my-zsh
 ZSH_THEME="spaceship"
 
 plugins=(
-  git
   zsh-syntax-highlighting
 )
 

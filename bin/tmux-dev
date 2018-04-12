@@ -17,9 +17,13 @@ tmux rename-window -t 2 bci
 # TODO Why is the vertical split not working here?
 tmux split-window -v -c "#{pane_current_path}"
 
+# Create the third 'dotfiles' window
+tmux new-window -c ~/.dotfiles
+tmux rename-window -t 3 dotfiles
+
 # Create the third 'ssh' window
 tmux new-window
-tmux rename-window -t 3 ssh
+tmux rename-window -t 4 ssh
 
 # Finally, select the first 'codecraft' window and attach to the created
 # session 'dev'

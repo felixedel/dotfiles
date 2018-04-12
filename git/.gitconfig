@@ -19,5 +19,19 @@
 [commit]
 	gpgsign = true
 
+[gitreview]
+	username = felix.schmidt
+	email = felix.fs.schmidt@bmw.de
+	name = Felix Schmidt
+
+[alias]
+	last = log -1 HEAD
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	ln = log --graph --decorate
+	lo = log --graph --oneline
+
 [include]
     path = ~/.gitconfig_local
