@@ -16,3 +16,9 @@ source ${HOME}/.dotfiles/zsh/.exports
 # For a full list of active aliases, run `alias`.
 source ${HOME}/.dotfiles/zsh/.aliases
 source ${HOME}/.dotfiles/zsh/.functions
+
+# COMPLETION SETTINGS
+# Add custom completion scripts to fpath
+export fpath=(~/.dotfiles/zsh/completion ${fpath})
+# Initialize zsh completion system
+compinit
