@@ -1,5 +1,21 @@
-# Create a new directory and enter it
+# Source a python virtualenv activation script
+# Sources an virtualenv activation script only by the name of the venv
+# The venv must exist in ~/.virtualenvs/<venv>
+venv() {
+    if [[ -z "$1" ]]; then
+        echo "Sources an virtualenv activation script only by the name of" \
+             "the virtualenv"
+        echo "The virtualenv must exist in ~/.virtualenvs/<venv>"
+        echo "Usage: venv <name>"
+    else
+        # TODO Would be great to have some auto-completion feature, showing
+        # all available venvs inside this directory (indpendent from where
+        # the script is actually called.
+        source ~/.virtualenvs/"$1"/bin/activate
+    fi
+}
 
+# Create a new directory and enter it
 mk() {
   mkdir -p "$@" && cd "$@"
 }
