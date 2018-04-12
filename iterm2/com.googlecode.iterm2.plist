@@ -707,7 +707,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/q391328/Documents/iTerm2_Settings</string>
+	<string>/Users/q391328/.dotfiles/iterm2</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
