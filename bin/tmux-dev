@@ -14,8 +14,7 @@ tmux select-layout -t codecraft main-vertical
 # Create the second 'bci' window, add 1 pane in a vertical split
 tmux new-window -c ~/Workspace/bci/config/ansible
 tmux rename-window -t 2 bci
-# TODO Why is the vertical split not working here?
-tmux split-window -v -c "#{pane_current_path}"
+tmux split-window -h -c "#{pane_current_path}"
 
 # Create the third 'dotfiles' window
 tmux new-window -c ~/.dotfiles
