@@ -19,6 +19,11 @@
 [commit]
 	gpgsign = true
 
+[gitreview]
+	username = felix.schmidt
+	email = felix.fs.schmidt@bmw.de
+	name = Felix Schmidt
+
 [alias]
 	last = log -1 HEAD
 	co = checkout
