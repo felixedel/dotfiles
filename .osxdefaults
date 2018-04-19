@@ -23,6 +23,13 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
+# ============
+# === Dock ===
+# ============
+
+# No bouncing icons
+defaults write com.apple.dock no-bouncing -bool true
+
 # ============================================
 # === Kill applications to enable settings ===
 # ============================================
