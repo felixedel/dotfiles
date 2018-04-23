@@ -4,6 +4,9 @@ alias git='LANG=en_GB git'
 alias weekly="git log --oneline --author 'Felix' --since=1.weeks --no-merges"
 alias sourcetree='open -a SourceTree ./'
 
+# Tree command for python repositories
+alias pytree="tree -a -I '.git|*.pyc|__pycache__|*.egg-info'"
+
 # Activate the fuck
 eval $(thefuck --alias f)
 
