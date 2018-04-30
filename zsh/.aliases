@@ -7,7 +7,7 @@ alias sourcetree='open -a SourceTree ./'
 # Custom tree commands
 alias tree="tree -F"
 # python repositories
-alias pytree="tree -a -F -I '.git|*.pyc|__pycache__|*.egg-info'"
+alias pytree="tree -a -F -I '.git|*.pyc|__pycache__|*.egg-info|.tox|.pytest_cache'"
 
 # Activate the fuck
 eval $(thefuck --alias f)
