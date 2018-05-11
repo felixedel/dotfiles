@@ -75,7 +75,7 @@ set showtabline=2  " Always show the tabline, even if there is only one tab
 set noshowmode  " Hide the default mode text (e.g. -- INSERT -- below he statusline)
 
 " Activate spell checking
-setlocal spell spelllang=en_us
+" setlocal spell spelllang=en_us
 
 " GUI geometry
 set background=dark
