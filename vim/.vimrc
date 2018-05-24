@@ -75,7 +75,7 @@ set showtabline=2  " Always show the tabline, even if there is only one tab
 set noshowmode  " Hide the default mode text (e.g. -- INSERT -- below he statusline)
 
 " Activate spell checking
-setlocal spell spelllang=en_us
+" setlocal spell spelllang=en_us
 
 " GUI geometry
 set background=dark
@@ -167,6 +167,8 @@ nnoremap <silent> <F7> :NERDTreeToggle<CR>
 
 " Taglist customization
 let Tlist_Use_Right_Window = 1  " Open taglist in right window instead of left
+let Tlist_GainFocus_On_ToggleOpen = 1  " Focus the taglist window when opened
+let Tlist_Close_On_Select = 1  " Close the taglist window when a tag was selected
 nnoremap <silent> <F8> :TlistToggle<CR>
 
 " Local leader
