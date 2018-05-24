@@ -167,6 +167,8 @@ nnoremap <silent> <F7> :NERDTreeToggle<CR>
 
 " Taglist customization
 let Tlist_Use_Right_Window = 1  " Open taglist in right window instead of left
+let Tlist_GainFocus_On_ToggleOpen = 1  " Focus the taglist window when opened
+let Tlist_Close_On_Select = 1  " Close the taglist window when a tag was selected
 nnoremap <silent> <F8> :TlistToggle<CR>
 
 " Local leader
