@@ -3,6 +3,7 @@ alias ptg='git push origin HEAD:refs/for/master'
 alias git='LANG=en_GB git'
 alias weekly="git log --oneline --author 'Felix' --since=1.weeks --no-merges"
 alias sourcetree='open -a SourceTree ./'
+alias pr='hub pull-request'
 
 # Custom tree commands
 alias tree="tree -F"
