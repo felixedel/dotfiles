@@ -128,6 +128,12 @@ nnoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
 
+" Move Windows with Alt+arrow
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
+
 " Pasting from system clipboard
 nnoremap <leader>p "+p
 vnoremap <leader>p "+p
