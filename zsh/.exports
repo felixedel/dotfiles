@@ -1,7 +1,7 @@
 # Define basic path variable
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # Add GNU core utils to path (take precedence over FreeBSD commands)
-export PATH=/opt/local/libexec/gnubin:{PATH}
+export PATH=/opt/local/libexec/gnubin:${PATH}
 # Add MacPorts to path
 export PATH=/opt/local/bin:~/bin:${PATH}
 # Add npm modules to path
