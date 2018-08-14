@@ -1,37 +1,37 @@
 [push]
-	default = simple
+    default = simple
 [branch]
-	autosetuprebase = always
+    autosetuprebase = always
 
 [core]
-	editor = mvim -f
-	excludesfile = ~/.gitignore_global
+    editor = mvim -f
+    excludesfile = ~/.gitignore_global
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+    path =
 [mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+    cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+    trustExitCode = true
 [icdiff]
-	options = --highlight --line-numbers
+    options = --highlight --line-numbers
 [hub]
-	host = cc-github.bmwgroup.net
+    host = cc-github.bmwgroup.net
 [commit]
-	gpgsign = true
+    gpgsign = true
 
 [gitreview]
-	username = felix.schmidt
-	email = felix.fs.schmidt@bmw.de
-	name = Felix Schmidt
+    username = felix.schmidt
+    email = felix.fs.schmidt@bmw.de
+    name = Felix Schmidt
 
 [alias]
-	last = log -1 HEAD
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
-	ln = log --graph --decorate
-	lo = log --graph --oneline
+    last = log -1 HEAD
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    ln = log --graph --decorate
+    lo = log --graph --oneline
 
 [include]
     path = ~/.gitconfig_local
