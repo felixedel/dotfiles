@@ -29,6 +29,7 @@
     co = checkout
     br = branch
     ci = commit
+    cia = commit --amend
     st = status
     ln = log --graph --decorate
     lo = log --graph --oneline
