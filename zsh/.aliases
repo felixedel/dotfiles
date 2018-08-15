@@ -1,3 +1,4 @@
+alias ls='ls -G --color'
 alias ll='ls -lahF'
 alias ptg='git push origin HEAD:refs/for/master'
 alias git='LANG=en_GB git'
