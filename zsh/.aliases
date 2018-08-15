@@ -9,7 +9,3 @@ alias pr='hub pull-request'
 alias tree="tree -F"
 # python repositories
 alias pytree="tree -a -F -I '.git|*.pyc|__pycache__|*.egg-info|.tox|.pytest_cache|htmlcov|build|dist'"
-
-# Activate the fuck
-eval $(thefuck --alias f)
-
