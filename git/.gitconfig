@@ -34,6 +34,8 @@
     st = status
     ln = log --graph --decorate
     lo = log --graph --oneline
+    po = push origin
+    pof = push -f origin
 
 [include]
     path = ~/.gitconfig_local
