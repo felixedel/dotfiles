@@ -9,4 +9,4 @@ alias pr='hub pull-request'
 # Custom tree commands
 alias tree="tree -F"
 # python repositories
-alias pytree="tree -a -F -I '.git|*.pyc|__pycache__|*.egg-info|.tox|.pytest_cache|htmlcov|build|dist'"
+alias pytree="tree -a -F -I '.git|*.pyc|__pycache__|*.egg-info|.eggs|.tox|.pytest_cache|htmlcov|build|dist'"
