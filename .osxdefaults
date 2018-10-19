@@ -1,3 +1,9 @@
+# ===============
+# === General ===
+# ===============
+
+defaults write -g ApplePressAndHoldEnabled -bool false
+
 # =======================
 # === Finder settings ===
 # =======================
