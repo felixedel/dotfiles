@@ -4,7 +4,7 @@
     autosetuprebase = always
 
 [core]
-    editor = mvim -f
+    editor = vim
     excludesfile = ~/.gitignore_global
 [difftool "sourcetree"]
     cmd = opendiff \"$LOCAL\" \"$REMOTE\"
