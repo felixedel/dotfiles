@@ -6,6 +6,7 @@ ZSH_THEME="spaceship"
 
 plugins=(
   zsh-syntax-highlighting
+  dotenv
 )
 
 # Activate oh-my-zsh
