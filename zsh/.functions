@@ -5,13 +5,18 @@ venv() {
     if [[ -z "$1" ]]; then
         echo "Sources an virtualenv activation script only by the name of" \
              "the virtualenv"
-        echo "The virtualenv must exist in ~/.virtualenvs/<venv>"
+        echo "The virtualenv must exist either as tox env in the project" \
+             "or in ~/.virtualenvs/<venv>"
         echo "Usage: venv <name>"
     else
-        # TODO Would be great to have some auto-completion feature, showing
-        # all available venvs inside this directory (indpendent from where
-        # the script is actually called.
-        source ~/.virtualenvs/"$1"/bin/activate
+        if [ -d "$(pwd)/.tox/${1}" ]; then
+            source $(pwd)/.tox/${1}/bin/activate
+        else
+            # TODO Would be great to have some auto-completion feature, showing
+            # all available venvs inside this directory (indpendent from where
+            # the script is actually called.
+            source ~/.virtualenvs/"$1"/bin/activate
+        fi
     fi
 }
 
