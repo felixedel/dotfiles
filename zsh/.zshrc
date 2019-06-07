@@ -7,6 +7,7 @@ ZSH_THEME="agnoster"
 
 plugins=(
   zsh-syntax-highlighting
+  zsh-autosuggestions
   dotenv
 )
 
