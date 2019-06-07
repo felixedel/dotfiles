@@ -2,7 +2,7 @@
 export ZSH=${HOME}/.oh-my-zsh
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="spaceship"
+ZSH_THEME="agnoster"
 
 plugins=(
   zsh-syntax-highlighting
