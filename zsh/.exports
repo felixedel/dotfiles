@@ -15,3 +15,6 @@ export LANG=en_GB.utf-8
 
 # Set editor
 EDITOR=vim
+
+# Set default username to empty for agnoster ZSH theme
+DEFAULT_USER=`whoami`

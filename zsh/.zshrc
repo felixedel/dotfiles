@@ -2,6 +2,7 @@
 export ZSH=${HOME}/.oh-my-zsh
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+# NOTE (felix): Using iTerm2 "Tango Dark" theme looks best
 ZSH_THEME="agnoster"
 
 plugins=(
