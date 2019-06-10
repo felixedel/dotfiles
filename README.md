@@ -17,7 +17,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 
 ### Profile settings
 - **Color Theme:** Tango Dark
-- **Font:** Meslo LG M DZ for Powerline 12pt
+- **Font:** Meslo LG M DZ for Powerline 12pt | DejaVu Sans Mono Nerd Font Complete 12pt
 - **Terminal type:** xterm-256color
 
 ### tmux integration
@@ -26,6 +26,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 
 ## Links
 **iTerm2 color schemes:** https://github.com/mbadolato/iTerm2-Color-Schemes
+**Nerd font for agnoster theme with venv icon:** https://github.com/ryanoasis/nerd-fonts
 **zsh themes:** https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 **zsh agnoster:** https://github.com/agnoster/agnoster-zsh-theme
 **zsh powerlevel9k:** https://github.com/bhilburn/powerlevel9k
