@@ -18,3 +18,7 @@ EDITOR=vim
 
 # Set default username to empty for agnoster ZSH theme
 DEFAULT_USER=`whoami`
+# Deactivate the default virtual env prompt to only show the agnoster prompt
+VIRTUAL_ENV_DISABLE_PROMPT=true
+# Truncate leading directories when in a git repository
+AGNOSTER_DIR_TRUNC_REPO=true
