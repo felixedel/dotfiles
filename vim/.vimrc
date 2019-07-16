@@ -21,6 +21,7 @@ Plugin 'nanotech/jellybeans.vim'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'joshdick/onedark.vim'
+" Activate powerline
 Bundle 'Lokaltog/powerline' , {'rtp': 'powerline/bindings/vim/'}
 
 "Bundle 'spolu/dwm.vim'
@@ -83,8 +84,6 @@ let g:hybrid_custom_term_colors = 1
 "let g:hybrid_reduced_contrast = 1 " Remove this line if using the default palette.
 colorscheme hybrid
 "colorscheme onedark
-" activate powerline
-set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
 if has ("gui_running")
     syntax enable
     set lines=40 columns=94  " Window size
