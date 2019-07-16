@@ -81,8 +81,8 @@ set noshowmode  " Hide the default mode text (e.g. -- INSERT -- below he statusl
 set background=dark
 let g:hybrid_custom_term_colors = 1
 "let g:hybrid_reduced_contrast = 1 " Remove this line if using the default palette.
-"colorscheme hybrid
-colorscheme onedark
+colorscheme hybrid
+"colorscheme onedark
 " activate powerline
 set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
 if has ("gui_running")
