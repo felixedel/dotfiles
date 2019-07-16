@@ -152,6 +152,17 @@ vnoremap <leader>y "+y
 nnoremap <C-N> :bnext<CR>
 nnoremap <C-B> :bprev<CR>
 
+" Easier split navigations
+" https://thoughtbot.com/blog/vim-splits-move-faster-and-more-naturally
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" More natural split opening
+set splitbelow " Open new vertical splits below rather than above
+set splitright " Open new horizontal splits right rathern than left
+
 " German quotes
 "imap <leader>p „
 "imap <leader>q “
