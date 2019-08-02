@@ -6,6 +6,9 @@ alias weekly="git log --oneline --author 'Felix' --since=1.weeks --no-merges"
 alias sourcetree='open -a SourceTree ./'
 alias pr='hub pull-request'
 
+# Always start VS Code in the current directory by default
+alias code='code .'
+
 # Custom tree commands
 alias tree="tree -F"
 # python repositories
