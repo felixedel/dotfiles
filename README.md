@@ -23,6 +23,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 ### tmux integration
 - **Open tmux windows as native windows**
 
+## VS Code
+1. Install [FiraCode](https://github.com/tonsky/FiraCode) to enable font ligatures.
+2. Link the `settings.json` file from this repository to the original VS Code settings location:
+```bash
+ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+```
 
 ## Links
 **iTerm2 color schemes:** https://github.com/mbadolato/iTerm2-Color-Schemes
