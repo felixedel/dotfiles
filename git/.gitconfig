@@ -1,28 +1,26 @@
 [push]
     default = simple
+
 [branch]
     autosetuprebase = always
 
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
+
 [difftool "sourcetree"]
     cmd = opendiff \"$LOCAL\" \"$REMOTE\"
     path =
+
 [mergetool "sourcetree"]
     cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
     trustExitCode = true
+
 [icdiff]
     options = --highlight --line-numbers
-[hub]
-    host = cc-github.bmwgroup.net
+
 [commit]
     gpgsign = true
-
-[gitreview]
-    username = felix.schmidt
-    email = felix.fs.schmidt@bmw.de
-    name = Felix Schmidt
 
 [alias]
     last = log -1 HEAD
