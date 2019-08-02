@@ -1,5 +1,7 @@
 # Define basic path variable
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# Add VS Code to the path (binary: code)
+export PATH=/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:${PATH}
 # Add GNU core utils to path (take precedence over FreeBSD commands)
 export PATH=/opt/local/libexec/gnubin:${PATH}
 # Add MacPorts to path
