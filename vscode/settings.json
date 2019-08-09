@@ -1,6 +1,7 @@
 {
     "[python]": {},
     "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
     "python.jediEnabled": false,
     "editor.minimap.enabled": false,
     "editor.fontFamily": "Fira Code",
