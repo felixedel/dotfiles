@@ -97,6 +97,7 @@ if has ("gui_running")
     let s:uname = system("uname")
     if s:uname == "Darwin\n"
       set guifont=Fira\ Code
+      set macligatures
     else
       set guifont=Fira\ Code
     endif
