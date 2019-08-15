@@ -96,9 +96,9 @@ if has ("gui_running")
     set lines=40 columns=94  " Window size
     let s:uname = system("uname")
     if s:uname == "Darwin\n"
-      set guifont=Meslo\ LG\ S\ for\ Powerline
+      set guifont=Fira\ Code
     else
-      set guifont=DejaVu\ Sans\ Mono\ Book\ 10
+      set guifont=Fira\ Code
     endif
     set guioptions-=m  " No menu bar
     set guioptions-=T  " No tool bar
