@@ -58,6 +58,9 @@ sub_update() {
     # Update npm
     npm install npm -g
     npm update -g
+
+    # Update ruby/gem
+    sudo gem update --system
 }
 
 sub_macos() {
