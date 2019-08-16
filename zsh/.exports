@@ -24,3 +24,6 @@ DEFAULT_USER=`whoami`
 VIRTUAL_ENV_DISABLE_PROMPT=true
 # Truncate leading directories when in a git repository
 AGNOSTER_DIR_TRUNC_REPO=true
+
+# bat configuration
+export BAT_CONFIG_PATH="${HOME}/.dotfiles/bat/bat.conf"
