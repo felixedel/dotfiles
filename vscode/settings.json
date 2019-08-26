@@ -1,9 +1,13 @@
 {
-    "[python]": {},
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "python.pythonPath": ".tox/dev/bin/python",
     "python.jediEnabled": true,
-    "editor.minimap.enabled": false,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "~/.virtualenvs/tools/bin/black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "~/.virtualenvs/tools/bin/flake8"
 }
