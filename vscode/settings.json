@@ -5,6 +5,8 @@
     "python.jediEnabled": true,
     "python.formatting.provider": "black",
     "python.formatting.blackPath": "~/.virtualenvs/tools/bin/black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "~/.virtualenvs/tools/bin/flake8",
     "editor.minimap.enabled": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true
