@@ -3,6 +3,7 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "python.jediEnabled": true,
+    "python.pythonPath": ".tox/dev/bin/python",
     "python.formatting.provider": "black",
     "python.formatting.blackPath": "~/.virtualenvs/tools/bin/black",
     "python.linting.flake8Enabled": true,
