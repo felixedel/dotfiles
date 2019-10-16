@@ -10,6 +10,7 @@
     "python.formatting.blackPath": "~/.virtualenvs/tools/bin/black",
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": "~/.virtualenvs/tools/bin/flake8",
+    "search.showLineNumbers": true,
     "workbench.settings.editor": "json",
     "workbench.settings.useSplitJSON": true
 }
