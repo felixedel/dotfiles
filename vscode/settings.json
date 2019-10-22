@@ -11,6 +11,12 @@
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": "~/.virtualenvs/tools/bin/flake8",
     "search.showLineNumbers": true,
+    "vim.statusBarColorControl": true,
     "workbench.settings.editor": "json",
-    "workbench.settings.useSplitJSON": true
+    "workbench.settings.useSplitJSON": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    }
 }
