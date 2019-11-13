@@ -1,9 +1,14 @@
 {
+    "[python]": {
+        "editor.rulers": [79, 120],
+    },
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "outline.showVariables": false,
+    "outline.showModules": false,
     "python.pythonPath": ".tox/dev/bin/python",
     "python.jediEnabled": true,
     "python.formatting.provider": "black",
@@ -13,7 +18,6 @@
     "search.showLineNumbers": true,
     "vim.statusBarColorControl": true,
     "workbench.settings.editor": "json",
-    "workbench.settings.useSplitJSON": true,
     "workbench.colorCustomizations": {
         "statusBar.background": "#005f5f",
         "statusBar.noFolderBackground": "#005f5f",
