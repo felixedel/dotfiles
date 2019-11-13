@@ -1,4 +1,7 @@
 {
+    "[python]": {
+        "editor.rulers": [79, 120],
+    },
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
