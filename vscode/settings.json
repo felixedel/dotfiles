@@ -7,6 +7,8 @@
     "editor.minimap.enabled": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "outline.showVariables": false,
+    "outline.showModules": false,
     "python.pythonPath": ".tox/dev/bin/python",
     "python.jediEnabled": true,
     "python.formatting.provider": "black",
