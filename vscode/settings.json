@@ -5,6 +5,7 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
+    "explorer.autoReveal": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "outline.showVariables": false,
