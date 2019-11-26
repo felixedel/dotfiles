@@ -62,6 +62,9 @@ sub_update() {
 
     # Update ruby/gem
     sudo gem update --system
+
+    # Update all pipx packages
+    pipx upgrade-all
 }
 
 sub_macos() {
