@@ -24,6 +24,7 @@ print_help() {
 
         help            This help message
         clean           Clean package managers (port)
+        pipx            Create pipx environment with python tools
         macos           Apply macOS system defaults
         update [--osx]  Update package and package managers (port, npm)
                         Use the --osx flag to also update macOS.
@@ -61,11 +62,34 @@ sub_update() {
 
     # Update ruby/gem
     sudo gem update --system
+
+    # Update all pipx packages
+    pipx upgrade-all
 }
 
 sub_macos() {
     defaults_file="${__dotfiles_dir}/.osxdefaults"
     echo "Applying ${defaults_file}" && source "${defaults_file}"
+}
+
+sub_pipx() {
+    # Create pipx venv
+    python3 -m venv ~/.virtualenvs/pipx
+    ~/.virtualenvs/pipx/bin/pip install pipx
+
+    # Add pipx binary to path
+    ln -s ~/.virtualenvs/pipx/bin/pipx ~/bin/ || true
+
+    # Install tools with pipx in isolated environments
+    pipx install aws
+    pipx install black
+    pipx install icdiff
+    pipx install git-review
+    pipx install ipython
+    pipx install pipenv
+    pipx install reno
+    pipx install tox
+    pipx install twine
 }
 
 case ${arg1} in
