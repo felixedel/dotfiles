@@ -8,6 +8,9 @@
     editor = vim
     excludesfile = ~/.dotfiles/git/.gitignore_global
 
+[remote "origin"]
+    prune = true
+
 [difftool "sourcetree"]
     cmd = opendiff \"$LOCAL\" \"$REMOTE\"
     path =
