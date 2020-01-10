@@ -84,6 +84,7 @@ sub_pipx() {
     pipx install aws
     pipx install black
     pipx install icdiff
+    pipx install flake8
     pipx install git-review
     pipx install ipython
     pipx install pipenv
