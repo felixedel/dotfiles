@@ -1,21 +1,37 @@
 # Source a python virtualenv activation script
 # Sources an virtualenv activation script only by the name of the venv
-# The venv must exist in ~/.virtualenvs/<venv>
+# The venv will be looked up in the following directories:
+#   - $(pwd)/.tox/<venv>
+#   - ~/.virtualenvs/<venv>
 venv() {
-    if [[ -z "$1" ]]; then
+    if [[ "$1" == "-h" ]]; then
         echo "Sources an virtualenv activation script only by the name of" \
              "the virtualenv"
-        echo "The virtualenv must exist either as tox env in the project" \
-             "or in ~/.virtualenvs/<venv>"
-        echo "Usage: venv <name>"
+        echo "The virtualenv will be looked up in the following directories"
+        echo '  - $(pwd)/.tox/<venv>'
+        echo "  - ~/.virtualenvs/<venv>"
+        echo ""
+        echo "If no virtualenv name is given, the script will use"\
+             '$(pwd)/.virtualenv" if it exists.'
+        echo ""
+        echo "Usage: venv [name]"
+    elif [[ -z "$1" ]]; then
+        echo "No venv name provided, trying to look up .virtualenv in the" \
+             "current working dir"
+        source $(pwd)/.virtualenv/bin/activate
     else
         if [ -d "$(pwd)/.tox/${1}" ]; then
+            echo "Found '${1}' as local .tox environment. Using that one."
             source $(pwd)/.tox/${1}/bin/activate
-        else
+        elif [ -d "${HOME}/.virtualenvs/${1}" ]; then
             # TODO Would be great to have some auto-completion feature, showing
-            # all available venvs inside this directory (indpendent from where
-            # the script is actually called.
-            source ~/.virtualenvs/"$1"/bin/activate
+            # all available venvs inside this directory (or all possible
+            # directories that would be looked up) - indpendent from where the
+            # script is actually called.
+            echo "Found '${1}' in ~/.virtualenvs. Using that one."
+            source ~/.virtualenvs/"${1}"/bin/activate
+        else
+            echo "Couldn't find appropriate virtualenv '${1}'."
         fi
     fi
 }
