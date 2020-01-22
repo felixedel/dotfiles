@@ -8,11 +8,11 @@ venv() {
         echo "Sources an virtualenv activation script only by the name of" \
              "the virtualenv"
         echo "The virtualenv will be looked up in the following directories"
-        echo "  - $(pwd)/.tox/<venv>"
+        echo '  - $(pwd)/.tox/<venv>'
         echo "  - ~/.virtualenvs/<venv>"
         echo ""
         echo "If no virtualenv name is given, the script will use"\
-             "$(pwd)/.virtualenv" if it exists.
+             '$(pwd)/.virtualenv" if it exists.'
         echo ""
         echo "Usage: venv [name]"
     elif [[ -z "$1" ]]; then
