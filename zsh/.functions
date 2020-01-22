@@ -11,15 +11,21 @@ venv() {
         echo "  - $(pwd)/.tox/<venv>"
         echo "  - ~/.virtualenvs/<venv>"
         echo ""
+        echo "If no virtualenv name is given, the script will use"\
+             "$(pwd)/.virtualenv" if it exists.
+        echo ""
         echo "Usage: venv [name]"
+    elif [[ -z "$1" ]]; then
+        source $(pwd)/.virtualenv/bin/activate
     else
         if [ -d "$(pwd)/.tox/${1}" ]; then
             source $(pwd)/.tox/${1}/bin/activate
         else
             # TODO Would be great to have some auto-completion feature, showing
-            # all available venvs inside this directory (indpendent from where
-            # the script is actually called.
-            source ~/.virtualenvs/"$1"/bin/activate
+            # all available venvs inside this directory (or all possible
+            # directories that would be looked up) - indpendent from where the
+            # script is actually called.
+            source ~/.virtualenvs/"${1}"/bin/activate
         fi
     fi
 }
