@@ -1,13 +1,17 @@
 # Source a python virtualenv activation script
 # Sources an virtualenv activation script only by the name of the venv
-# The venv must exist in ~/.virtualenvs/<venv>
+# The venv will be looked up in the following directories:
+#   - $(pwd)/.tox/<venv>
+#   - ~/.virtualenvs/<venv>
 venv() {
-    if [[ -z "$1" ]]; then
+    if [[ "$1" == "-h" ]]; then
         echo "Sources an virtualenv activation script only by the name of" \
              "the virtualenv"
-        echo "The virtualenv must exist either as tox env in the project" \
-             "or in ~/.virtualenvs/<venv>"
-        echo "Usage: venv <name>"
+        echo "The virtualenv will be looked up in the following directories"
+        echo "  - $(pwd)/.tox/<venv>"
+        echo "  - ~/.virtualenvs/<venv>"
+        echo ""
+        echo "Usage: venv [name]"
     else
         if [ -d "$(pwd)/.tox/${1}" ]; then
             source $(pwd)/.tox/${1}/bin/activate
