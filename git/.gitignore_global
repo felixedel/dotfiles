@@ -4,3 +4,6 @@
 # Development environment
 .idea/
 .vscode/
+
+# Python / virtualenvs
+.virtualenv/
