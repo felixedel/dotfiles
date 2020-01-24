@@ -53,17 +53,21 @@ sub_update() {
     fi
 
     # Update MacPorts
+    echo "Updating MacPorts..."
     sudo port selfupdate
     sudo port upgrade outdated
 
     # Update npm
+    echo "Updating npm..."
     npm install npm -g
     npm update -g
 
     # Update ruby/gem
+    echo "Updating rub/gem..."
     sudo gem update --system -n /usr/local/bin
 
     # Update all pipx packages
+    echo "Updating pipx packages..."
     pipx upgrade-all
 }
 
