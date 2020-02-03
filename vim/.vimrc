@@ -15,6 +15,7 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'w0rp/ale'
 Plugin 'timothycrosley/isort'
 Plugin 'taglist.vim'
+Plugin 'tpope/vim-surround'
 
 " Color schemes
 Plugin 'nanotech/jellybeans.vim'
