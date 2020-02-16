@@ -46,6 +46,7 @@
     lo = log --graph --oneline
     po = push origin
     pof = push -f origin
+    sw = switch
 
 [include]
     path = ~/.gitconfig_local
