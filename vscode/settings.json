@@ -2,6 +2,9 @@
     "[python]": {
         "editor.rulers": [79, 90],
     },
+    "[markdown]": {
+        "editor.rulers": [90],
+    },
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
