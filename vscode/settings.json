@@ -2,12 +2,10 @@
     "[python]": {
         "editor.rulers": [79, 90],
     },
-    "[markdown]": {
-        "editor.rulers": [80],
-    },
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
+    "editor.rulers": [80],
     "explorer.autoReveal": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
