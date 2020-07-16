@@ -14,7 +14,7 @@
         "defaultInterpreterPath": "${workspaceFolder}/.tox/dev/bin/python",
         "formatting.provider": "black",
         "formatting.blackPath": "~/.local/bin/black",
-        "languageServer": "Jedi",
+        "languageServer": "Pylance",
         "linting.flake8Enabled": true,
         "linting.flake8Path": "~/.local/bin/flake8",
     },
