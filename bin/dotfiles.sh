@@ -85,7 +85,6 @@ sub_pipx() {
     ln -s ~/.virtualenvs/pipx/bin/pipx ~/bin/ || true
 
     # Install tools with pipx in isolated environments
-    pipx install aws
     pipx install black
     pipx install icdiff
     pipx install flake8
