@@ -25,5 +25,6 @@
         "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f"
     },
-    "kite.showWelcomeNotificationOnStartup": false
+    "kite.showWelcomeNotificationOnStartup": false,
+    "workbench.iconTheme": "vscode-icons"
 }
