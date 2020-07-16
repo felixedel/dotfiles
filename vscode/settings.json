@@ -2,6 +2,10 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+    },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
