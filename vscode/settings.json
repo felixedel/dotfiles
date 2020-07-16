@@ -1,6 +1,18 @@
 {
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "[python]": {
         "editor.rulers": [79, 90],
+        "defaultInterpreterPath": "${workspaceFolder}/.tox/dev/bin/python",
+        "formatting.provider": "black",
+        "formatting.blackPath": "~/.local/bin/black",
+        "languageServer": "Jedi",
+        "linting.flake8Enabled": true,
+        "linting.flake8Path": "~/.local/bin/flake8",
     },
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -11,12 +23,7 @@
     "files.trimTrailingWhitespace": true,
     "outline.showVariables": false,
     "outline.showModules": false,
-    "python.pythonPath": ".tox/dev/bin/python",
-    "python.jediEnabled": true,
-    "python.formatting.provider": "black",
-    "python.formatting.blackPath": "~/.local/bin/black",
-    "python.linting.flake8Enabled": true,
-    "python.linting.flake8Path": "~/.local/bin/flake8",
+    "prettier.jsxSingleQuote": true,
     "search.showLineNumbers": true,
     "vim.statusBarColorControl": true,
     "workbench.settings.editor": "json",
@@ -25,5 +32,6 @@
         "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f"
     },
-    "kite.showWelcomeNotificationOnStartup": false
+    "kite.showWelcomeNotificationOnStartup": false,
+    "workbench.iconTheme": "vscode-icons"
 }
