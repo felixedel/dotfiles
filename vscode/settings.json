@@ -1,4 +1,10 @@
 {
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "[python]": {
         "editor.rulers": [79, 90],
         "defaultInterpreterPath": "${workspaceFolder}/.tox/dev/bin/python",
@@ -17,6 +23,7 @@
     "files.trimTrailingWhitespace": true,
     "outline.showVariables": false,
     "outline.showModules": false,
+    "prettier.jsxSingleQuote": true,
     "search.showLineNumbers": true,
     "vim.statusBarColorControl": true,
     "workbench.settings.editor": "json",
