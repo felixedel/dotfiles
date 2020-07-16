@@ -11,7 +11,7 @@
     "files.trimTrailingWhitespace": true,
     "outline.showVariables": false,
     "outline.showModules": false,
-    "python.pythonPath": ".tox/dev/bin/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.tox/dev/bin/python",
     "python.jediEnabled": true,
     "python.formatting.provider": "black",
     "python.formatting.blackPath": "~/.local/bin/black",
