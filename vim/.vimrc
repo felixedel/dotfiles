@@ -9,23 +9,17 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Other plugins
 Plugin 'kien/ctrlp.vim'
-Plugin 'scrooloose/nerdtree'
 Plugin 'klen/python-mode'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'w0rp/ale'
 Plugin 'timothycrosley/isort'
-Plugin 'taglist.vim'
 Plugin 'tpope/vim-surround'
 
 " Color schemes
-Plugin 'nanotech/jellybeans.vim'
-Plugin 'junegunn/seoul256.vim'
 Plugin 'w0ng/vim-hybrid'
-Plugin 'joshdick/onedark.vim'
+"Plugin 'joshdick/onedark.vim'
 " Activate powerline
 Bundle 'Lokaltog/powerline' , {'rtp': 'powerline/bindings/vim/'}
-
-"Bundle 'spolu/dwm.vim'
 
 call vundle#end()
 
