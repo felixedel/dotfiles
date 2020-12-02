@@ -14,14 +14,6 @@
 [remote "origin"]
     prune = true
 
-[difftool "sourcetree"]
-    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-    path =
-
-[mergetool "sourcetree"]
-    cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-    trustExitCode = true
-
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -30,9 +22,6 @@
 
 [icdiff]
     options = --highlight --line-numbers
-
-[commit]
-    gpgsign = true
 
 [alias]
     last = log -1 HEAD

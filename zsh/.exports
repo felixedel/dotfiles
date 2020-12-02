@@ -6,6 +6,12 @@ export PATH=/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:${
 export PATH=/opt/local/libexec/gnubin:${PATH}
 # Add MacPorts to path
 export PATH=/opt/local/bin:~/bin:${PATH}
+# Add brew installed python to path
+export PATH=/usr/local/opt/python/libexec/bin:${PATH}
+# Add brew installed ruby to path
+export PATH=/usr/local/opt/ruby/bin:${PATH}
+# Add ruby packages to path
+export PATH=/usr/local/lib/ruby/gems/2.7.0/bin:${PATH}
 # Add npm modules to path
 export PATH=~/.npm-packages/bin:${PATH}
 # Add .dotfiles/scripts to path
