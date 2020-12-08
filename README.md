@@ -12,6 +12,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
 
+Link the custom ZSH theme to the `oh-my-zsh` themes directory like so:
+
+```bash
+ln -s ~/.dotfiles/zsh/themes/felixedel.zsh-theme ~/.oh-my-zsh/themes/
+```
+
 ## iTerm2 settings
 
 ### Profile settings
@@ -51,8 +57,7 @@ ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/
 **iTerm2 color schemes:** https://github.com/mbadolato/iTerm2-Color-Schemes
 **Nerd font for agnoster theme with venv icon:** https://github.com/ryanoasis/nerd-fonts
 **zsh themes:** https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-**zsh agnoster:** https://github.com/agnoster/agnoster-zsh-theme
-**zsh powerlevel9k:** https://github.com/bhilburn/powerlevel9k
+**How to write a ZSH theme:** https://blog.carbonfive.com/writing-zsh-themes-a-quickref/
 
 ### Misc
 https://opensource.com/article/18/9/tips-productivity-zsh
