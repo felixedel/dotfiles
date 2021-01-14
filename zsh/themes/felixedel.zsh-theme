@@ -56,13 +56,13 @@ prompt_git() {
 
     # Check if we are currently in any bisect|merge|rebase mode
     if [[ -e "${repo_path}/BISECT_LOG" ]]; then
-      mode=" <B>"
+      mode=" [<B>]"
     elif [[ -e "${repo_path}/MERGE_HEAD" ]]; then
-      mode=" >M<"
+      mode=" [>M<]"
     elif [[ -e "${repo_path}/CHERRY_PICK_HEAD" ]]; then
-      mode=" <CP<"
+      mode=" [<CP<]"
     elif [[ -e "${repo_path}/rebase" || -e "${repo_path}/rebase-apply" || -e "${repo_path}/rebase-merge" ]]; then
-      mode=" >R>"
+      mode=" [>R>]"
     fi
 
     # In case everything is fine, show a green ref name without any dirty mark.
