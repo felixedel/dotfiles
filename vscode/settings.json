@@ -37,5 +37,12 @@
         "statusBar.debuggingBackground": "#005f5f"
     },
     "kite.showWelcomeNotificationOnStartup": false,
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "vsicons.dontShowNewVersionMessage": true
 }
