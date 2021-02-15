@@ -23,6 +23,9 @@
 [icdiff]
     options = --highlight --line-numbers
 
+[rerere]
+	enabled = true
+
 [alias]
     last = log -1 HEAD
     co = checkout
