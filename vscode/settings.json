@@ -44,5 +44,7 @@
             "filenamePattern": "*.ipynb"
         }
     ],
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.tabSizing": "shrink",
     "vsicons.dontShowNewVersionMessage": true
 }
