@@ -90,7 +90,10 @@ sub_pipx() {
     pipx install flake8
     pipx install git-review
     pipx install ipython
+    pipx install jupyterlab
+    pipx install mypy
     pipx install pipenv
+    pipx install pre-commit
     pipx install reno
     pipx install tox
     pipx install twine
