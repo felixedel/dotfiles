@@ -1,6 +1,42 @@
 # dotfiles
 
+## Initial bootstrapping
+
+Install iterm2: https://iterm2.com/
+Install brew: https://brew.sh/
+
+Install necessary tools with brew:
+```bash
+brew install coreutils git hub node python@3.9 ruby tig tmux vim zsh
+```
+
+Clone this repository
+
+```bash
+git clone git@github.com:felixedel/dotfiles.git ~/.dotfiles
+```
+
+Symlink the necessary files into your `HOME` directory:
+```bash
+ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/npm/.npmrc ~/.npmrc
+ln -s ~/.dotfiles/tig/.tigrc ~/.tigrc
+ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
+ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc
+```
+
+Install colorls via ruby/gem
+```bash
+gem install colorls
+```
 ## ZSH
+
+Install oh-my-zsh: https://ohmyz.sh/
+
+Symlink the zsh config file into your `HOME` directory:
+```bash
+ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
+```
 
 Clone necessary zsh plugin repositories
 
@@ -9,7 +45,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 
 ```bash
-git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
 Link the custom ZSH theme to the `oh-my-zsh` themes directory like so:
@@ -17,6 +53,10 @@ Link the custom ZSH theme to the `oh-my-zsh` themes directory like so:
 ```bash
 ln -s ~/.dotfiles/zsh/themes/felixedel.zsh-theme ~/.oh-my-zsh/themes/
 ```
+
+## tmux
+
+Install tmux plugin manager: https://github.com/tmux-plugins/tpm
 
 ## iTerm2 settings
 
@@ -41,7 +81,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 Create the vim swapfiles directory:
 ```bash
-$ mkdir ~/.vim/swapfiles
+mkdir ~/.vim/swapfiles
 ```
 
 On first start of vim, run `:PluginInstall` to install necessary plugins.
@@ -51,6 +91,10 @@ On first start of vim, run `:PluginInstall` to install necessary plugins.
 2. Link the `settings.json` file from this repository to the original VS Code settings location:
 ```bash
 ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+```
+3. Link the `keybindings.json` file from this repository to the original VS Code settings location:
+```bash
+ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 ```
 
 ## Links
