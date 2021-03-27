@@ -92,7 +92,7 @@ prompt_git() {
 
 # Primary prompt
 PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}✘ )%{${reset_color}%}"
-PROMPT+='%{$fg_bold[cyan]%}$(prompt_dir) $(prompt_git)'
+PROMPT+='%{$fg_bold[cyan]%}$(prompt_dir) $(prompt_git)%{${reset_color}%}'
 
 # Right prompt
 RPS1='$(prompt_virtualenv) $(prompt_aws)'
