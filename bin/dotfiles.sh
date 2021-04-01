@@ -26,7 +26,7 @@ print_help() {
         clean           Clean package managers (port)
         pipx            Create pipx environment with python tools
         macos           Apply macOS system defaults
-        update [--osx]  Update package and package managers (port, npm)
+        update [--osx]  Update package and package managers (brew, npm, pipx)
                         Use the --osx flag to also update macOS.
 
     "
@@ -52,10 +52,12 @@ sub_update() {
         esac
     fi
 
-    # Update MacPorts
-    echo "Updating MacPorts..."
-    sudo port selfupdate
-    sudo port upgrade outdated
+    # Update Brew
+    echo "Updating Brew..."
+    # Update formulae list and brew
+    brew update
+    # Update packages to newest version
+    brew upgrade
 
     # Update npm
     echo "Updating npm..."
