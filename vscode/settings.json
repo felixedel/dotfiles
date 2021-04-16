@@ -46,5 +46,6 @@
     ],
     "workbench.editor.wrapTabs": true,
     "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.decorations.badges": false,
     "vsicons.dontShowNewVersionMessage": true
 }
