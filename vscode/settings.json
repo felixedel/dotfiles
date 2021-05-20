@@ -18,6 +18,7 @@
     "editor.rulers": [80],
     "explorer.autoReveal": false,
     "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "outline.showVariables": false,
     "outline.showModules": false,
