@@ -20,6 +20,7 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "gitlens.defaultDateSource": "committed",
     "outline.showVariables": false,
     "outline.showModules": false,
     "python.defaultInterpreterPath": "${workspaceFolder}/.tox/dev/bin/python",
