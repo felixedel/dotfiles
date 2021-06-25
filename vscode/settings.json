@@ -38,14 +38,10 @@
         "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f"
     },
-    "kite.showWelcomeNotificationOnStartup": false,
     "workbench.iconTheme": "vscode-icons",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "workbench.editor.wrapTabs": true,
     "workbench.editor.tabSizing": "shrink",
     "workbench.editor.decorations.badges": false,
