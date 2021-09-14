@@ -64,6 +64,7 @@ set backspace=indent,eol,start  " Allow backspacing over everything in insert mo
 set number  " Show line numbers
 " set relativenumber  " Show line numbers relative to current line
 set colorcolumn=80  " Show a color column at 80 chars
+set shortmess-=S  " Show the number of search results
 
 " Useful for powerline
 set laststatus=2  " Always show status line
