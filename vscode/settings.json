@@ -12,10 +12,12 @@
     "[python]": {
         "editor.rulers": [79, 90],
     },
+    "editor.bracketPairColorization.enabled": true,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
     "editor.rulers": [80],
+    "editor.suggest.preview": true,
     "explorer.autoReveal": false,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -40,10 +42,14 @@
     },
     "workbench.iconTheme": "vscode-icons",
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
+        "*.ipynb": "jupyter-notebook"
     },
     "workbench.editor.wrapTabs": true,
     "workbench.editor.tabSizing": "shrink",
     "workbench.editor.decorations.badges": false,
-    "vsicons.dontShowNewVersionMessage": true
+    "vsicons.dontShowNewVersionMessage": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    }
 }
