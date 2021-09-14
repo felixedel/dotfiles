@@ -12,10 +12,12 @@
     "[python]": {
         "editor.rulers": [79, 90],
     },
+    "editor.bracketPairColorization.enabled": true,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
     "editor.rulers": [80],
+    "editor.suggest.preview": true,
     "explorer.autoReveal": false,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
