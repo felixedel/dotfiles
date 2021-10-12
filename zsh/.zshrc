@@ -20,6 +20,9 @@ source ${HOME}/.dotfiles/zsh/.exports
 source ${HOME}/.dotfiles/zsh/.aliases
 source ${HOME}/.dotfiles/zsh/.functions
 
+# Enable direnv
+eval "$(direnv hook zsh)"
+
 # COMPLETION SETTINGS
 # Add custom completion scripts to fpath
 export fpath=(~/.dotfiles/zsh/completion ${fpath})
