@@ -51,5 +51,6 @@
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
-    }
+    },
+    "zenMode.centerLayout": false,
 }
