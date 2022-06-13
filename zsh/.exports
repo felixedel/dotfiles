@@ -20,6 +20,8 @@ export PATH=~/.dotfiles/bin:${PATH}
 export PATH=~/.local/bin:${PATH}
 # Add poetry to path
 export PATH=~/.poetry/bin:${PATH}
+# Add rust to path
+export PATH=~/.cargo/bin:${PATH}
 
 # Export locale settings
 export LC_ALL=en_GB.utf-8
