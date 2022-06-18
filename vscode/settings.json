@@ -25,7 +25,6 @@
     "gitlens.defaultDateSource": "committed",
     "outline.showVariables": false,
     "outline.showModules": false,
-    "python.defaultInterpreterPath": "${workspaceFolder}/.tox/dev/bin/python",
     "python.formatting.provider": "black",
     "python.formatting.blackPath": "~/.local/bin/black",
     "python.languageServer": "Pylance",
