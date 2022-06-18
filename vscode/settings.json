@@ -52,4 +52,7 @@
         "jupyter-notebook": "left"
     },
     "zenMode.centerLayout": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
 }
