@@ -97,6 +97,19 @@ ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/
 ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 ```
 
+### Installed Plugins
+
+This is a list of plugins, I've currently installed in vscode:
+
+- Docker
+- GitLens
+- Jupyter
+- Prettier
+- Pylance
+- Python
+- Vim
+- vscode-icons
+
 ## Links
 **iTerm2 color schemes:** https://github.com/mbadolato/iTerm2-Color-Schemes
 **Nerd font for agnoster theme with venv icon:** https://github.com/ryanoasis/nerd-fonts

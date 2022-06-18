@@ -25,7 +25,6 @@
     "gitlens.defaultDateSource": "committed",
     "outline.showVariables": false,
     "outline.showModules": false,
-    "python.defaultInterpreterPath": "${workspaceFolder}/.tox/dev/bin/python",
     "python.formatting.provider": "black",
     "python.formatting.blackPath": "~/.local/bin/black",
     "python.languageServer": "Pylance",
@@ -34,6 +33,7 @@
     "prettier.jsxSingleQuote": true,
     "search.showLineNumbers": true,
     "vim.statusBarColorControl": true,
+    "window.zoomLevel": 0.5,
     "workbench.settings.editor": "json",
     "workbench.colorCustomizations": {
         "statusBar.background": "#005f5f",
@@ -53,4 +53,7 @@
         "jupyter-notebook": "left"
     },
     "zenMode.centerLayout": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
 }
