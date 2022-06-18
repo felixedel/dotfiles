@@ -33,6 +33,7 @@
     "prettier.jsxSingleQuote": true,
     "search.showLineNumbers": true,
     "vim.statusBarColorControl": true,
+    "window.zoomLevel": 0.5,
     "workbench.settings.editor": "json",
     "workbench.colorCustomizations": {
         "statusBar.background": "#005f5f",
