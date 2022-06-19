@@ -38,6 +38,10 @@ Symlink the zsh config file into your `HOME` directory:
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
+In case you created the symlink already before installing oh-my-zsh, the file
+will be overwritten by the install procedure. Thus, you have to create it
+again.
+
 Clone necessary zsh plugin repositories
 
 ```bash
@@ -56,13 +60,14 @@ ln -s ~/.dotfiles/zsh/themes/felixedel.zsh-theme ~/.oh-my-zsh/themes/
 
 ## tmux
 
-Install tmux plugin manager: https://github.com/tmux-plugins/tpm
+Install tmux plugin manager: https://github.com/tmux-plugins/tpm and install all
+plugins via `prefix + I`.
 
 ## iTerm2 settings
 
 ### Profile settings
 - **Color Theme:** Tango Dark
-- **Font:** DejaVu Sans Mono Nerd Font Complete 12pt (https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DejaVuSansMono/Regular/complete/DejaVu%20Sans%20Mono%20Nerd%20Font%20Complete.ttf)
+- **Font:** DejaVu Sans Mono Nerd Font Complete 13pt (https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DejaVuSansMono/Regular/complete/DejaVu%20Sans%20Mono%20Nerd%20Font%20Complete.ttf)
 - **Terminal type:** xterm-256color
 
 To allow jumping words via arrow keys, change the following key mappings in `profile -> keys`:
