@@ -9,11 +9,11 @@ export PATH=/opt/local/libexec/gnubin:${PATH}
 # Add MacPorts to path
 export PATH=/opt/local/bin:~/bin:${PATH}
 # Add brew installed python to path
-export PATH=/usr/local/opt/python/libexec/bin:${PATH}
+export PATH=/opt/homebrew/opt/python@3.10/bin:${PATH}
 # Add brew installed ruby to path
-export PATH=/usr/local/opt/ruby/bin:${PATH}
+export PATH=/opt/homebrew/opt/ruby/bin:${PATH}
 # Add ruby packages to path
-export PATH=/usr/local/lib/ruby/gems/3.0.0/bin:${PATH}
+export PATH=/opt/homebrew/lib/ruby/gems/3.1.0/bin:${PATH}
 # Add npm modules to path
 export PATH=~/.npm-packages/bin:${PATH}
 # Add .dotfiles/scripts to path

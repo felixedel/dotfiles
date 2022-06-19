@@ -7,7 +7,7 @@ Install brew: https://brew.sh/
 
 Install necessary tools with brew:
 ```bash
-brew install coreutils git hub node python@3.9 ruby tig tmux vim zsh
+brew install coreutils direnv git hub node python@3.10 ruby tig tmux tree vim zsh
 ```
 
 Clone this repository
@@ -19,6 +19,7 @@ git clone git@github.com:felixedel/dotfiles.git ~/.dotfiles
 Symlink the necessary files into your `HOME` directory:
 ```bash
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/git/.gitconfig ~/.gitignore_global
 ln -s ~/.dotfiles/npm/.npmrc ~/.npmrc
 ln -s ~/.dotfiles/tig/.tigrc ~/.tigrc
 ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
