@@ -49,6 +49,14 @@ defaults write com.apple.dock largesize -float 100
 # https://github.com/VSCodeVim/Vim#mac
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
+# ================
+# === Menu Bar ===
+# ================
+
+# Show battery percentage
+cur_user=`whoami`
+sudo -u ${cur_user} defaults write /Users/${cur_user}/Library/Preferences/ByHost/com.apple.controlcenter.plist BatteryShowPercentage -bool true
+
 # ============================================
 # === Kill applications to enable settings ===
 # ============================================
