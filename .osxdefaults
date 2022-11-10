@@ -31,6 +31,14 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 # NOTE: This needs a log off/on or restart to take effect
 defaults write -g com.apple.mouse.scaling 3
 
+# ===============
+# === VS Code ===
+# ===============
+
+# Enable key-repeating in VS Code (e.g. when using vim mode):
+# https://github.com/VSCodeVim/Vim#mac
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
 # ============================================
 # === Kill applications to enable settings ===
 # ============================================
