@@ -1,8 +1,9 @@
 [user]
-	name = Felix Edel
+    name = Felix Edel
 
 [push]
     default = simple
+    autoSetupRemote = true
 
 [branch]
     autosetuprebase = always
@@ -15,16 +16,16 @@
     prune = true
 
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
 
 [icdiff]
     options = --highlight --line-numbers
 
 [rerere]
-	enabled = true
+    enabled = true
 
 [alias]
     last = log -1 HEAD

@@ -20,6 +20,11 @@ source ${HOME}/.dotfiles/zsh/.exports
 source ${HOME}/.dotfiles/zsh/.aliases
 source ${HOME}/.dotfiles/zsh/.functions
 
+local_exports=${HOME}/.exports_local
+if [ -f ${local_exports} ]; then
+    source ${local_exports}
+fi
+
 # Increase number of open file descriptors
 ulimit -n 2048
 

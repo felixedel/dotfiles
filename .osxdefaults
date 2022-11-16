@@ -31,11 +31,37 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 # NOTE: This needs a log off/on or restart to take effect
 defaults write -g com.apple.mouse.scaling 3
 
+
+# ============
+# === Dock ===
+# ============
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock tilesize -float 50
+defaults write com.apple.dock magnification -bool true
+defaults write com.apple.dock largesize -float 100
+
+
+# ===============
+# === VS Code ===
+# ===============
+
+# Enable key-repeating in VS Code (e.g. when using vim mode):
+# https://github.com/VSCodeVim/Vim#mac
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
+# ================
+# === Menu Bar ===
+# ================
+
+# Show battery percentage
+cur_user=`whoami`
+sudo -u ${cur_user} defaults write /Users/${cur_user}/Library/Preferences/ByHost/com.apple.controlcenter.plist BatteryShowPercentage -bool true
+
 # ============================================
 # === Kill applications to enable settings ===
 # ============================================
 
-for app in "Finder"; do
+for app in "Finder" "Dock"; do
     echo "Killing ${app} to enable settings ..."
     killall "${app}"
 done
