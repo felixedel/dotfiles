@@ -64,10 +64,6 @@ sub_update() {
     npm install npm -g
     npm update -g
 
-    # Update ruby/gem
-    echo "Updating rub/gem..."
-    sudo gem update --system -n /usr/local/bin
-
     # Update all pipx packages
     echo "Updating pipx packages..."
     pipx upgrade-all

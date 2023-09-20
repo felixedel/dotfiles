@@ -1,5 +1,6 @@
-#alias ls='colorls --gs'
-alias ll='colorls -lA --gs'
+# We only define an alias for 'll', but keep the default 'ls' command. Otherwise
+# we end up with a lot of errors when exa is not installed (yet).
+alias ll='exa --long --all --icons --git'
 alias ptg='git push origin HEAD:refs/for/master'
 alias weekly="git log --oneline --author 'Felix' --since=1.weeks --no-merges"
 alias sourcetree='open -a SourceTree ./'

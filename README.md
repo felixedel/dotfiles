@@ -7,7 +7,7 @@ Install brew: https://brew.sh/
 
 Install necessary tools with brew:
 ```bash
-brew install coreutils direnv git hub node python@3.10 ruby tig tmux tree vim zsh openssl@1.1
+brew install coreutils exa direnv git hub node python@3.10 ruby tig tmux tree vim zsh openssl@1.1
 ```
 
 Clone this repository
@@ -26,10 +26,6 @@ ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc
 ```
 
-Install colorls via ruby/gem
-```bash
-gem install colorls
-```
 ## ZSH
 
 Install oh-my-zsh: https://ohmyz.sh/
