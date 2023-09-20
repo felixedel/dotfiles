@@ -59,11 +59,6 @@ sub_update() {
     # Update packages to newest version
     brew upgrade
 
-    # Update npm
-    echo "Updating npm..."
-    npm install npm -g
-    npm update -g
-
     # Update all pipx packages
     echo "Updating pipx packages..."
     pipx upgrade-all
