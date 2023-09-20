@@ -3,7 +3,6 @@
 alias ll='eza --long --all --icons --git'
 alias ptg='git push origin HEAD:refs/for/master'
 alias weekly="git log --oneline --author 'Felix' --since=1.weeks --no-merges"
-alias sourcetree='open -a SourceTree ./'
 alias pr='hub pull-request'
 
 # Always start VS Code in the current directory by default
