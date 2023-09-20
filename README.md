@@ -71,6 +71,7 @@ To allow jumping words via arrow keys, change the following key mappings in `pro
 - `Option+->`: `Send Escape Sequence` with value `f`
 
 Appearance -> Windows -> Hide scrollbars
+General -> Selection -> Applications in Terminal may access clipboard
 
 ### tmux integration
 - **Open tmux windows as native windows**
