@@ -86,6 +86,7 @@ sub_pipx() {
     pipx install jupyterlab
     pipx install mypy
     pipx install pipenv
+    pipx install poetry
     pipx install pre-commit
     pipx install reno
     pipx install tox
