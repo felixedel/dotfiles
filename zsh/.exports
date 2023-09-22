@@ -8,8 +8,6 @@ export PATH=/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:${
 export PATH=/opt/local/libexec/gnubin:${PATH}
 # Add brew installed OpenSSL to path
 export PATH=/usr/local/opt/openssl@1.1/bin:${PATH}
-# Add brew installed python to path
-export PATH=/opt/homebrew/opt/python@3.10/bin:/usr/local/opt/python@3.10/bin:${PATH}
 # Add .dotfiles/scripts to path
 export PATH=~/.dotfiles/bin:${PATH}
 # Add pipx to path
