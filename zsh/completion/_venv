@@ -1,1 +1,5 @@
-compdef '_files -W ${HOME}/.virtualenvs' venv
+#compdef venv
+
+_venv() {
+    _files -W ${HOME}/.virtualenvs
+}
