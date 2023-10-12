@@ -1,8 +1,17 @@
+#
+# General
+#
+
+# Make search case insensitive as long as no uppercase letter is present in the
+# search string.
+set ignore-case = smart-case
+
+
 # Do not read Git's color setting.
 #set git-colors = yes
 
 #
-# Color settings
+# Color schema
 #
 
 # general
