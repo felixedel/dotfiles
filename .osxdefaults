@@ -23,11 +23,9 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-
 # ============
 # === Dock ===
 # ============
-
 defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock tilesize -float 50
 defaults write com.apple.dock magnification -bool true
@@ -45,7 +43,6 @@ defaults write com.apple.dock mru-spaces -bool false
 # https://github.com/VSCodeVim/Vim#mac
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
-
 # ================
 # === Menu Bar ===
 # ================
@@ -54,20 +51,11 @@ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 cur_user=`whoami`
 sudo -u ${cur_user} defaults write /Users/${cur_user}/Library/Preferences/ByHost/com.apple.controlcenter.plist BatteryShowPercentage -bool true
 
-
-# ==========================
-# === macOS Applications ===
-# ==========================
-
-# Disable spellchecking and auto correction in notes app
-defaults write com.apple.notes NSAutomaticSpellingCorrectionEnabled -bool false
-
-
 # ============================================
 # === Kill applications to enable settings ===
 # ============================================
 
-for app in "Finder" "Dock" "Notes"; do
+for app in "Finder" "Dock"; do
     echo "Killing ${app} to enable settings ..."
     killall "${app}"
 done
