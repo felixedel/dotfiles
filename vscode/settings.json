@@ -52,6 +52,7 @@
     },
     "zenMode.centerLayout": false,
     "zenMode.hideStatusBar": false,
+    "zenMode.showTabs": "none",
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
