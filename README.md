@@ -7,7 +7,7 @@ Install brew: https://brew.sh/
 
 Install necessary tools with brew:
 ```bash
-brew install coreutils eza direnv git hub node python@3.11 ripgrep ruby tig tmux tree vim zsh openssl@1.1
+brew install coreutils eza direnv git hub node python@3.12 pipx ripgrep ruby tig tmux tree vim zsh openssl@1.1
 ```
 
 Clone this repository
