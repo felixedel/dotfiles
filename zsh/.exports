@@ -16,6 +16,8 @@ export PATH=~/.local/bin:${PATH}
 export PATH=~/.poetry/bin:${PATH}
 # Add rust to path
 export PATH=~/.cargo/bin:${PATH}
+# Add krew (kubectl package manager) to path
+export PATH="${KREW_ROOT:-${HOME}/.krew}/bin:${PATH}"
 # Add ~/bin to path
 export PATH=~/bin:${PATH}
 
