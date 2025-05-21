@@ -4,14 +4,15 @@
     },
     "[javascriptreact]": {
         "editor.tabSize": 2,
-        "editor.detectIndentation": false
+        "editor.detectIndentation": false,
+        "editor.rulers": [90]
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.rulers": [79, 90],
+        "editor.rulers": [79, 90]
     },
     "editor.bracketPairColorization.enabled": true,
     "editor.fontFamily": "Fira Code",
@@ -31,7 +32,7 @@
     "prettier.jsxSingleQuote": true,
     "search.showLineNumbers": true,
     "vim.statusBarColorControl": true,
-    "window.zoomLevel": 0.5,
+    "window.zoomLevel": 1.0,
     "workbench.settings.editor": "json",
     "workbench.colorCustomizations": {
         "statusBar.background": "#005f5f",
@@ -57,4 +58,6 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "window.commandCenter": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "workbench.layoutControl.enabled": false
 }
