@@ -110,10 +110,11 @@ ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/Us
 This is a list of plugins, I've currently installed in vscode:
 
 - Black Formatter
+- Container Tools
+- Dev Containers
+- Docker DX
 - Flake8
-- Docker
 - GitLens
-- Jupyter
 - Prettier
 - Pylance
 - Python
