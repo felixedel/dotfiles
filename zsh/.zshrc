@@ -31,6 +31,10 @@ ulimit -n 2048
 # Enable direnv
 eval "$(direnv hook zsh)"
 
+# Enable atuin
+. "$HOME/.atuin/bin/env"
+eval "$(atuin init zsh)"
+
 # COMPLETION SETTINGS
 # Add custom completion scripts to fpath
 export fpath=(~/.dotfiles/zsh/completion ${fpath})

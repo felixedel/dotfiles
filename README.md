@@ -23,6 +23,7 @@ ln -s ~/.dotfiles/git/.gitignore_global ~/.gitignore_global
 ln -s ~/.dotfiles/tig/.tigrc ~/.tigrc
 ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc
+ln -f -s ~/.dotfiles/atuin/config.toml ~/.config/atuin/config.toml
 ```
 
 ## ZSH
@@ -58,6 +59,9 @@ ln -s ~/.dotfiles/zsh/themes/felixedel.zsh-theme ~/.oh-my-zsh/themes/
 
 Install tmux plugin manager: https://github.com/tmux-plugins/tpm and install all
 plugins via `prefix + I`.
+
+## atuin
+Recommended installation approach is described here: https://docs.atuin.sh/guide/installation/#recommended-installation-approach
 
 ## iTerm2 settings
 

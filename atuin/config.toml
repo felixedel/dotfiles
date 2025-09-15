@@ -1,0 +1,3 @@
+# Open command in edit mode rather than executing it directly when selected
+# from the history.
+enter_accept = false
