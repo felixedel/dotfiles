@@ -28,6 +28,7 @@
     "gitlens.defaultDateSource": "committed",
     "outline.showVariables": false,
     "outline.showModules": false,
+    "python.defaultInterpreterPath": "${workspaceFolder}/.tox/dev/bin/python",
     "python.languageServer": "Pylance",
     "prettier.jsxSingleQuote": true,
     "search.showLineNumbers": true,
