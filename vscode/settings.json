@@ -41,7 +41,9 @@
     "workbench.colorCustomizations": {
         "statusBar.background": "#005f5f",
         "statusBar.noFolderBackground": "#005f5f",
-        "statusBar.debuggingBackground": "#005f5f"
+        "statusBar.debuggingBackground": "#005f5f",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff"
     },
     "workbench.iconTheme": "vscode-icons",
     "workbench.editorAssociations": {
@@ -63,5 +65,6 @@
     },
     "window.commandCenter": false,
     "remote.autoForwardPortsSource": "hybrid",
-    "workbench.layoutControl.enabled": false
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.empty.hint": "hidden"
 }
