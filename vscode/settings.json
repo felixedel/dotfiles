@@ -18,6 +18,9 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
+    "editor.pasteAs.preferences": [
+        "markdown.link"
+    ],
     "editor.rulers": [80],
     "editor.suggest.preview": true,
     "explorer.autoReveal": false,
