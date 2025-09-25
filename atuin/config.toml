@@ -1,6 +1,6 @@
-# Open command in edit mode rather than executing it directly when selected
-# from the history.
-enter_accept = false
+# Setting this to false will open a command in edit mode rather than
+# executing it directly when selected from the history.
+enter_accept = true
 
 # Use "session" filter when opening atuin via "arrow up" key to get more of
 # the "re-run last command" functionality while keeping atuins search/filter
