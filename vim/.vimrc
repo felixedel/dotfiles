@@ -156,6 +156,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" Insert a blank line below current via <Enter> or above via <Shift + Enter>
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
+
 " More natural split opening
 set splitbelow " Open new vertical splits below rather than above
 set splitright " Open new horizontal splits right rathern than left
