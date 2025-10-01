@@ -52,7 +52,6 @@
     "workbench.editor.wrapTabs": true,
     "workbench.editor.tabSizing": "shrink",
     "workbench.editor.decorations.badges": false,
-    "vim.vimrc.enable": true,
     "vsicons.dontShowNewVersionMessage": true,
     "notebook.cellToolbarLocation": {
         "default": "right",
