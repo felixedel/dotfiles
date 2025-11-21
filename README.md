@@ -67,7 +67,7 @@ Recommended installation approach is described here: https://docs.atuin.sh/guide
 
 ### Profile settings
 - **Color Theme:** Tango Dark
-- **Font:** DejaVu Sans Mono Nerd Font Complete 13pt (https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DejaVuSansMono/Regular/complete/DejaVu%20Sans%20Mono%20Nerd%20Font%20Complete.ttf)
+- **Font:** DejaVu Sans Mono Nerd Font Complete 13pt (https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DejaVuSansMono/Regular/DejaVuSansMNerdFontPropo-Regular.ttf)
 - **Terminal type:** xterm-256color
 
 To allow jumping words via arrow keys, change the following key mappings in `profile -> keys`:
