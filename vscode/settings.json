@@ -11,7 +11,7 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.rulers": [79, 90]
     },
     "editor.bracketPairColorization.enabled": true,
