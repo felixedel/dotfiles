@@ -4,6 +4,7 @@
 # Development environment
 .idea/
 .vscode/
+.devcontainer/
 
 # Python / virtualenvs
 .virtualenv/
