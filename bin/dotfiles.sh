@@ -70,29 +70,14 @@ sub_macos() {
 }
 
 sub_pipx() {
-    # Create pipx venv
-    python3 -m venv ~/.virtualenvs/pipx
-    ~/.virtualenvs/pipx/bin/pip install pipx
-
-    # Add pipx binary to path
-    ln -s ~/.virtualenvs/pipx/bin/pipx ~/bin/ || true
-
-    # Install tools with pipx in isolated environments
+    # Install tools with pipx in isolated environments. The pipx
+    # executable is installed via brew.
     pipx install black
-    pipx install icdiff
-    pipx install flake8
     pipx install git-review
-    pipx install ipython
-    pipx install jupyterlab
-    pipx install mypy
     pipx install nox
-    pipx install pipenv
     pipx install poetry
-    pipx install pre-commit
     pipx install reno
     pipx install tox
-    pipx install twine
-    pipx install uv
 }
 
 case ${arg1} in
