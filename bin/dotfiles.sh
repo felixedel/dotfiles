@@ -26,7 +26,7 @@ print_help() {
         clean           Clean package managers (port)
         pipx            Create pipx environment with python tools
         macos           Apply macOS system defaults
-        update [--osx]  Update package and package managers (brew, npm, pipx)
+        update [--osx]  Update package and package managers (brew, pipx, uv)
                         Use the --osx flag to also update macOS.
 
     "
@@ -62,6 +62,10 @@ sub_update() {
     # Update all pipx packages
     echo "Updating pipx packages..."
     pipx upgrade-all
+
+    # Updating uv
+    echo "Updating uv..."
+    uv self update
 }
 
 sub_macos() {

@@ -4,8 +4,9 @@
 
 Install iterm2: https://iterm2.com/
 Install brew: https://brew.sh/
+Install uv: https://docs.astral.sh/uv/getting-started/installation/
 
-Install necessary tools with brew:
+Install necessary tools with `brew`:
 ```bash
 brew install \
     coreutils \
