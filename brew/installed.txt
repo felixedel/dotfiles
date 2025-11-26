@@ -1,9 +1,0 @@
-git
-hub
-node
-python
-ruby
-tig
-tmux
-vim
-zsh

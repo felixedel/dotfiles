@@ -4,10 +4,30 @@
 
 Install iterm2: https://iterm2.com/
 Install brew: https://brew.sh/
+Install uv: https://docs.astral.sh/uv/getting-started/installation/
 
-Install necessary tools with brew:
+Install necessary tools with `brew`:
 ```bash
-brew install coreutils eza direnv git hub node python@3.12 pipx ripgrep ruby tig tmux tree vim zsh openssl@1.1
+brew install \
+    bat \
+    coreutils \
+    eza \
+    direnv \
+    git \
+    hub \
+    icdiff \
+    ipython \
+    node \
+    python@3.14 \
+    pipx \
+    ripgrep \
+    ruby \
+    tig \
+    tmux \
+    tree \
+    vim \
+    zsh \
+    openssl@1.1
 ```
 
 Clone this repository

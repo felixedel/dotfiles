@@ -6,16 +6,10 @@ export PATH=/opt/homebrew/bin:${PATH}
 export PATH=/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:${PATH}
 # Add GNU core utils to path (take precedence over FreeBSD commands)
 export PATH=/opt/local/libexec/gnubin:${PATH}
-# Add brew installed OpenSSL to path
-export PATH=/usr/local/opt/openssl@1.1/bin:${PATH}
 # Add .dotfiles/scripts to path
 export PATH=~/.dotfiles/bin:${PATH}
-# Add pipx to path
+# Add pipx and uv to path
 export PATH=~/.local/bin:${PATH}
-# Add poetry to path
-export PATH=~/.poetry/bin:${PATH}
-# Add rust to path
-export PATH=~/.cargo/bin:${PATH}
 # Add krew (kubectl package manager) to path
 export PATH="${KREW_ROOT:-${HOME}/.krew}/bin:${PATH}"
 # Add ~/bin to path
