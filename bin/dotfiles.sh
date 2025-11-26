@@ -23,7 +23,7 @@ print_help() {
     Commands:
 
         help            This help message
-        clean           Clean package managers (port)
+        clean           Clean package managers (brew)
         pipx            Create pipx environment with python tools
         macos           Apply macOS system defaults
         update [--osx]  Update package and package managers (brew, pipx, uv)
@@ -33,8 +33,7 @@ print_help() {
 }
 
 sub_clean() {
-    sudo port clean --all installed # TODO -f option?
-    sudo port uninstall inactive # TODO -f option?
+    brew cleanup
 }
 
 sub_update() {
