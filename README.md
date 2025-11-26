@@ -9,6 +9,7 @@ Install uv: https://docs.astral.sh/uv/getting-started/installation/
 Install necessary tools with `brew`:
 ```bash
 brew install \
+    bat \
     coreutils \
     eza \
     direnv \
