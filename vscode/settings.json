@@ -65,6 +65,7 @@
     },
     "window.commandCenter": false,
     "remote.autoForwardPortsSource": "hybrid",
+    "chat.commandCenter.enabled": false,
     "workbench.layoutControl.enabled": false,
     "workbench.editor.empty.hint": "hidden"
 }
