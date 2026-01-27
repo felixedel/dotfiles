@@ -6,6 +6,8 @@ export PATH=/opt/homebrew/bin:${PATH}
 export PATH=/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:${PATH}
 # Add GNU core utils to path (take precedence over FreeBSD commands)
 export PATH=/opt/homebrew/opt/coreutils/libexec/gnubin:${PATH}
+# Add brew installed curl to path
+export PATH=/opt/homebrew/opt/curl/bin:${PATH}
 # Add .dotfiles/scripts to path
 export PATH=~/.dotfiles/bin:${PATH}
 # Add pipx and uv to path
