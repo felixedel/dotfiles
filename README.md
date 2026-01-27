@@ -11,6 +11,7 @@ Install necessary tools with `brew`:
 brew install \
     bat \
     coreutils \
+    curl \
     eza \
     direnv \
     git \
