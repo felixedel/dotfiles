@@ -2,9 +2,10 @@
 
 ## Initial bootstrapping
 
-Install iterm2: https://iterm2.com/
-Install brew: https://brew.sh/
-Install uv: https://docs.astral.sh/uv/getting-started/installation/
+Install iterm2: https://iterm2.com/ <br/>
+Install brew: https://brew.sh/ <br/>
+Install uv: https://docs.astral.sh/uv/getting-started/installation/ <br/>
+Install poetry: https://python-poetry.org/docs/#installing-with-the-official-installer <br/>
 
 Install necessary tools with `brew`:
 ```bash
@@ -15,6 +16,7 @@ brew install \
     eza \
     direnv \
     git \
+    git-review \
     hub \
     icdiff \
     ipython \

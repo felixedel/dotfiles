@@ -76,9 +76,7 @@ sub_pipx() {
     # Install tools with pipx in isolated environments. The pipx
     # executable is installed via brew.
     pipx install black
-    pipx install git-review
     pipx install nox
-    pipx install poetry
     pipx install reno
     pipx install tox
 }
