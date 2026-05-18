@@ -37,6 +37,13 @@ defaults write com.apple.dock largesize -float 100
 defaults write com.apple.dock mru-spaces -bool false
 
 
+# =================
+# === Spotlight ===
+# =================
+
+# Disable spotlight indexing on external drives
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
 # ===============
 # === VS Code ===
 # ===============
